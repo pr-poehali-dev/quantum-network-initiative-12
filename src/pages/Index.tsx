@@ -4,77 +4,77 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">БУКВА*КНИГИ</div>
         <nav>
-          <a href="#">Меню</a>
+          <a href="#">Каталог</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">События</a>
+          <a href="#">Адрес</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Найти книгу</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              ЧИТАЙ.
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              ЖИВИ <span>ЯРЧЕ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Уютный книжный магазин с душой. Тысячи книг, советы настоящих читателей и атмосфера, в которой хочется остаться подольше.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Смотреть каталог
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
-                Смотреть меню
+                О магазине
               </button>
             </div>
           </div>
           <div className="hero-img">
             <div className="sticker">
-              СВЕЖАК
+              НОВИНКИ
               <br />
-              КАЖДЫЙ ДЕНЬ
+              УЖЕ ЗДЕСЬ
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #ЧИТАЕМ
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              УЮТНО
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * КНИГИ КОТОРЫЕ МЕНЯЮТ * УЮТНЫЙ ЧИТАЛЬНЫЙ ЗАЛ * СОБЫТИЯ КАЖДУЮ НЕДЕЛЮ * КОФЕ И ЧТЕНИЕ * ЛУЧШИЙ ВЫБОР В ГОРОДЕ *
+            КНИГИ КОТОРЫЕ МЕНЯЮТ * УЮТНЫЙ ЧИТАЛЬНЫЙ ЗАЛ * СОБЫТИЯ КАЖДУЮ НЕДЕЛЮ * КОФЕ И ЧТЕНИЕ * ЛУЧШИЙ ВЫБОР В ГОРОДЕ
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">ВЫБОР МЕСЯЦА</h2>
             <a
               href="#"
               className="text-sm md:text-base"
               style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}
             >
-              Всё меню
+              Весь каталог
             </a>
           </div>
 
           <div className="menu-grid">
             {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">Бестселлер</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Классика"
               />
               <div className="menu-card-body">
                 <div
@@ -85,11 +85,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Мировая классика</h3>
+                  <span className="price">от 490 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Толстой, Достоевский, Чехов — издания с бережной редактурой и стильными обложками.
                 </p>
               </div>
             </div>
@@ -97,11 +97,11 @@ export default function Index() {
             {/* Item 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                Новинка
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Современная проза"
               />
               <div className="menu-card-body">
                 <div
@@ -112,10 +112,10 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Современная проза</h3>
+                  <span className="price">от 650 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Актуальные авторы, свежие истории, живой язык. Находки каждую неделю.</p>
               </div>
             </div>
 
@@ -125,8 +125,8 @@ export default function Index() {
                 Популярное
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Нон-фикшн"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +137,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Нон-фикшн</h3>
+                  <span className="price">от 750 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Наука, психология, бизнес, история — книги, которые расширяют кругозор.
                 </p>
               </div>
             </div>
@@ -150,10 +150,11 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">МЕСТО, ГДЕ ВРЕМЯ ЗАМИРАЕТ.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Мы не просто продаём книги. Мы создаём пространство для чтения, размышлений и живого общения. Уютные кресла, аромат
+              кофе, полки до потолка — приходи, и уходить не захочется. Клубы по интересам, авторские встречи, тихие читальные
+              вечера.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наша история
@@ -164,31 +165,31 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @BUKVA.KNIGI
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Книги"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Магазин"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                src="https://images.unsplash.com/photo-1533327325824-76851d61c85a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Чтение"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера"
               />
             </div>
           </div>
@@ -197,9 +198,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">БУКВА*КНИГИ</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Твоё место для чтения, открытий и хороших разговоров. Книги, которые меняют жизнь — с 2024 года.
           </p>
         </div>
         <div className="footer-links">
@@ -207,7 +208,7 @@ export default function Index() {
           <ul>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Меню
+                Каталог
               </a>
             </li>
             <li>
@@ -217,12 +218,12 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                События
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Контакты
               </a>
             </li>
           </ul>
@@ -230,16 +231,18 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн–Пт: 10:00–21:00</li>
+            <li>Сб–Вс: 10:00–22:00</li>
+            <li style={{ marginTop: "10px", color: "var(--primary)", fontWeight: 700 }}>Всегда рады гостям</li>
           </ul>
         </div>
-        <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+        <div className="footer-links">
+          <h4>Контакты</h4>
+          <ul>
+            <li>ул. Книжная, 7</li>
+            <li>+7 (900) 000-00-00</li>
+            <li>hello@bukvaknigi.ru</li>
+          </ul>
         </div>
       </footer>
     </>
